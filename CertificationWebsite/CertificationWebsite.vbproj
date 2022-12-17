@@ -140,6 +140,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="administration\Admin.aspx" />
     <Content Include="administration\Index.aspx" />
     <Content Include="components\assets\client\css\style.css" />
     <Content Include="components\assets\client\img\about-img.svg" />
@@ -225,6 +226,13 @@
     <Compile Include="Admin.Master.vb">
       <DependentUpon>Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administration\Admin.aspx.designer.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administration\Admin.aspx.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="administration\Index.aspx.designer.vb">
       <DependentUpon>Index.aspx</DependentUpon>
